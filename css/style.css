@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 96vh;
+    margin: 0;
+    background-image: url("");
+    background: url("../img/fond-gris.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img{
+    width: 40px;
+    height: 48px;
+    margin: auto;
+}
+
+.container-form{
+    margin: auto;
+    margin-top: 60px;
+    width: 296px;
+    height: 350px;
+    background-color: white;
+}
+.grid-row{
+    margin: auto;
+    margin-left: 49px;
+    margin-top: 18px;
+    display: grid;
+    grid-template-rows: 15px;
+}
+.grid-col{
+    display: grid;
+    height: 50px;
+    margin-top: 30px;
+    grid-template-columns: auto 55px;
+}
+.kdo{
+    display: flex;
+    margin-right: 12px;
+    background-color: blue;
+}
+.small-title{
+    color: #c7c7c9;
+    font-size: 10px;
+    margin-left: 65px;
+}
+.big-title{
+    font-size: 19px;
+    color: #244068;
+}
+.grid-input{
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 70px;
+}
+.grid-input div{
+    margin: auto;
+}
+.label-input{
+    margin-top: 60px;
+    color: #919197;
+}
+#input{
+    margin: auto;
+    margin-top: 5px;
+    border: none;
+    border-bottom: solid #c7c7c9 1px;
+    width: 220px;
+    height: 30px;
+}
+button{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    width: 130px;
+    height: 30px;
+    background-color: #37b8e1;
+    border: none;
+}
+
+.footer-form{
+    text-decoration: underline;
+    color: #898990;
+    padding-bottom: 15px;
+}
+.footer{
+    display: flex;
+}
+.footer p{
+    margin: auto;
+}
