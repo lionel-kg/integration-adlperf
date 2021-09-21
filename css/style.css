@@ -8,7 +8,7 @@
     height: 96vh;
     margin: 0;
     background-image: url("");
-    background: url("../img/fond-gris.jpg") no-repeat center center; 
+    background: url("../img/bg.png") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,7 +43,6 @@ img{
 .kdo{
     display: flex;
     margin-right: 12px;
-    background-color: blue;
 }
 .small-title{
     color: #c7c7c9;
